@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color:rgb(247, 199, 80);
+      display: flex;
+    }
+    .o{
+      background-color: black;
+      height: 400px;
+      width: 300px;
+      margin-left: 440px;
+      margin-top: 120px;
+      border-radius: 20px;
+    }
+    .p{
+      position: absolute;
+      background-color: white;
+      height: 400px;
+      width: 300px;
+      top: 121px;
+      left: 440px;
+      border-radius: 20px;
+      border: 1px solid black;
+    }
+    .d{
+      display: flex;
+      flex-direction: column;
+    }
+    .r{
+      height: 200px;
+      width: 280px;
+      margin-left: 10px;
+      margin-top: 10px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .i{
+      /* margin-top: 10px; */
+      height: auto;
+      width: 100%;
+      /* margin-left: 10px;
+      margin-top: -5px;
+      border-radius: 20px; */
+    }
+    .c{
+      height: 20px;
+      width: 80px;
+      background-color: rgb(247, 199, 80);
+      position: relative;
+      margin-left: 10px;
+      border-radius: 2px;
+      margin-top: -10px;
+    }
+    .k{
+      color: black;
+      position: absolute; /* Position the paragraph absolutely within the container */
+      top: 50%; /* Align vertically */
+      left: 50%; /* Align horizontally */
+      transform: translate(-50%, -50%); /* Center the paragraph */
+      margin: 0; /* Reset margin */
+    }
+    .t{
+      margin-left: 10px;
+    }
+    h3{
+      color: rgb(247, 199, 80);
+      margin-top: -5px;
+      margin-left: 9px;
+    }
+    .a{
+      margin-left: 10px;
+      margin-top: -10px;
+      color: rgb(76, 75, 75);
+    }
+    .profile{
+      margin-left: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+    .e{
+      margin-top: -4px;
+      height: 40px;
+    }
+    .g{
+      margin-top: 7px;
+      margin-left: 7px;
+    }
+  </style>
+</head>
+<body>
+  <div class="o"></div>
+  <div class="p">
+    <div class="d">
+      <div class="r">
+      <img src="./assets/images/illustration-article.svg" class="i"/>
+      </div>
+      <div class="c">
+        <p class="k"><strong>Learning</strong></p>
+      </div>
+      <p class="t">Published in 2024</p>
+      <h3>HTML & CSS FOUNDATION</h3>
+      <p class="a">These languages are the backbones of the each and every website you see on internet</p>
+      <div class="profile">
+        <img src="./assets/images/image-avatar.webp" class="e"/>
+        <p class="g"><strong>Greg Hooper</strong></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
